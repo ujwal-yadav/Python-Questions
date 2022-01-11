@@ -14,5 +14,6 @@ while i<len(s) :
     else:
         num1=num1+int(s[i])
         i=i+1;
-
-print(num1+int(num2))
+print("num1 is : ",num1)
+print("num2 is : ",num2)
+print("Sum of num1 and num2 is : ",num1+int(num2))
