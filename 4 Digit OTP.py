@@ -1,4 +1,4 @@
-num="34567"
+num="3456"
 otp=""
 for i in range(len(num)):
     if i%2!=0:
