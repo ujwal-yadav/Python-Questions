@@ -13,7 +13,10 @@ def maxSubArray(self, nums: List[int]) -> int:
         if summ<0:
             summ=0
             c=i+1
-    for i in range(temp[0],temp[1]+1):
-        print(nums[i],end=" ")
+    if len(temp)<1:
+            print(nums[0])
+        else:
+            for i in range(temp[0],temp[1]+1):
+                print(nums[i],end=" ")
     return maxx
                 
